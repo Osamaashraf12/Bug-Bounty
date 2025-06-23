@@ -5,7 +5,7 @@ Currently, it supports **HackerOne** (via bounty-targets-data) and will be updat
 
 ## Installation
 ```
-git clone https://github.com/Osamaashraf12/bug-bounty-first-steps.git
+git clone https://github.com/Osamaashraf12/bug-bounty.git
 cd bug-bounty-first-steps
 ```
 > Please do not change the directory structure, as the scripts rely on specific paths.
