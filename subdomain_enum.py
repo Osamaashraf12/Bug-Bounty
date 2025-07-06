@@ -6,7 +6,7 @@ def run_dnsx(input_file, output_file):
     try:
         print("Running dnsx for live domains")
         process = subprocess.run(
-            ["dnsx", "-silent", "-a", "-resp", "-l", input_file],
+            ["dnsx", "-silent", "-cname", "-resp", "-l", input_file],
             stdout=subprocess.PIPE,
             stderr=subprocess.DEVNULL,
             text=True
